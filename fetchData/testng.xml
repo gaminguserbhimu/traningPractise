@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name = "browser" value="chrome"/>
+  <parameter name = "url" value="http://localhost:8888"/>
+  <parameter name = "username" value="admin"/> 
+  <parameter name = "password" value="admin"/> 
+  <parameter name = "lastname" value="Lead0"/>
+  <parameter name = "company" value="TY0"/>
+  <parameter name = "noOFEmploy" value="30"/>
+  <parameter name = "email" value="sweetarpita91@gmail.com"/>
+  <parameter name = "secondaryemail" value="sambit.17@gmail.com"/>   
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.crm.vtiger.Tests2.BaseClass"/>
+      <class name="com.crm.vtiger.Tests2.TC_12_CreatNewLeadByGivingInvalidInputToAnnualRevenue"/>
+      <class name="com.crm.vtiger.Tests2.TC_15_creatNewLeadByGivingSameInputToEmailAndSecondaryEmail"/>
+      <class name="com.crm.vtiger.Tests2.TC_11_CreatNewLeadByGivingValidInputToAnnualRevenueTest"/>
+      <class name="com.crm.vtiger.Tests2.TC_14_creatNewLeadByGivingInvalidInputToNoOfEmployee"/>
+      <class name="com.crm.vtiger.Tests2.TC_13_creatNewLeadByGivingValidInputToNoOfEmployee"/>
+      <class name="com.crm.vtiger.Tests2.TC_15_2_creatNewLeadByGivingSameValidInputToEmailAndSecondaryEmail"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

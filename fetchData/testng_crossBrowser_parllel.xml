@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel = "tests" thread-count="5">
+	
+	<listeners>
+		<listener class-name="com.crm.vtiger.GenericUtils.ListIMGClass"/>
+	</listeners>
+	
+  <test thread-count="5" name="Test 01">
+  	 <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.crm.vtiger.Tests.TC_11_CreatNewLeadByGivingValidInputToAnnualRevenueTest"/>
+	  <class name="com.crm.vtiger.Tests2.TC_13_creatNewLeadByGivingValidInputToNoOfEmployee"/>
+      <class name="com.crm.vtiger.Tests2.TC_15_2_creatNewLeadByGivingSameValidInputToEmailAndSecondaryEmail"/>    
+    </classes>
+  </test> <!-- Test -->
+
+  <test thread-count="5" name="Test 02">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.crm.vtiger.Tests.TC_11_CreatNewLeadByGivingValidInputToAnnualRevenueTest"/>
+   	  <class name="com.crm.vtiger.Tests2.TC_13_creatNewLeadByGivingValidInputToNoOfEmployee"/>
+      <class name="com.crm.vtiger.Tests2.TC_15_2_creatNewLeadByGivingSameValidInputToEmailAndSecondaryEmail"/>   
+   	 </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

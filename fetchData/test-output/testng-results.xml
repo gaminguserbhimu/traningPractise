@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[PASS :: New lead is created with unique Lead No]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-05-06T07:48:58 IST" name="Default suite" finished-at="2021-05-06T07:49:43 IST" duration-ms="45423">
+    <groups>
+    </groups>
+    <test started-at="2021-05-06T07:48:58 IST" name="Default test" finished-at="2021-05-06T07:49:43 IST" duration-ms="45423">
+      <class name="com.crm.vtiger.Tests.TC_11_CreatNewLeadByGivingValidInputToAnnualRevenueTest">
+        <test-method is-config="true" signature="configsBS()[pri:0, instance:com.crm.vtiger.Tests.TC_11_CreatNewLeadByGivingValidInputToAnnualRevenueTest@1534f01b]" started-at="2021-05-06T07:48:58 IST" name="configsBS" finished-at="2021-05-06T07:48:58 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configsBS -->
+        <test-method is-config="true" signature="configBT()[pri:0, instance:com.crm.vtiger.Tests.TC_11_CreatNewLeadByGivingValidInputToAnnualRevenueTest@1534f01b]" started-at="2021-05-06T07:48:58 IST" name="configBT" finished-at="2021-05-06T07:48:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBT -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.vtiger.Tests.TC_11_CreatNewLeadByGivingValidInputToAnnualRevenueTest@1534f01b]" started-at="2021-05-06T07:48:58 IST" name="configBC" finished-at="2021-05-06T07:49:00 IST" duration-ms="2355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.vtiger.Tests.TC_11_CreatNewLeadByGivingValidInputToAnnualRevenueTest@1534f01b]" started-at="2021-05-06T07:49:00 IST" name="setUp" finished-at="2021-05-06T07:49:16 IST" duration-ms="15141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc_11_CreatNewLeadByGivingValidInputToAnnualRevenue_Test()[pri:0, instance:com.crm.vtiger.Tests.TC_11_CreatNewLeadByGivingValidInputToAnnualRevenueTest@1534f01b]" started-at="2021-05-06T07:49:16 IST" name="tc_11_CreatNewLeadByGivingValidInputToAnnualRevenue_Test" finished-at="2021-05-06T07:49:41 IST" duration-ms="25499" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS :: New lead is created with unique Lead No]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_11_CreatNewLeadByGivingValidInputToAnnualRevenue_Test -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:com.crm.vtiger.Tests.TC_11_CreatNewLeadByGivingValidInputToAnnualRevenueTest@1534f01b]" started-at="2021-05-06T07:49:41 IST" name="signOut" finished-at="2021-05-06T07:49:43 IST" duration-ms="2092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="config()[pri:0, instance:com.crm.vtiger.Tests.TC_11_CreatNewLeadByGivingValidInputToAnnualRevenueTest@1534f01b]" started-at="2021-05-06T07:49:43 IST" name="config" finished-at="2021-05-06T07:49:43 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method is-config="true" signature="configAT()[pri:0, instance:com.crm.vtiger.Tests.TC_11_CreatNewLeadByGivingValidInputToAnnualRevenueTest@1534f01b]" started-at="2021-05-06T07:49:43 IST" name="configAT" finished-at="2021-05-06T07:49:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAT -->
+        <test-method is-config="true" signature="configsAS()[pri:0, instance:com.crm.vtiger.Tests.TC_11_CreatNewLeadByGivingValidInputToAnnualRevenueTest@1534f01b]" started-at="2021-05-06T07:49:44 IST" name="configsAS" finished-at="2021-05-06T07:49:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configsAS -->
+      </class> <!-- com.crm.vtiger.Tests.TC_11_CreatNewLeadByGivingValidInputToAnnualRevenueTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
